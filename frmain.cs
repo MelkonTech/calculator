@@ -28,7 +28,6 @@ namespace Calculator
             else
             {
                 double num = 0;
-                lbhistory.Items.Add(lbScreen.Text.Length);
                 if (lbScreen.Text.Length < 15 && Double.TryParse(lbScreen.Text + bt.Text, out num)) lbScreen.Text = Convert.ToString(num);
             }
         }
