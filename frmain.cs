@@ -8,7 +8,7 @@ namespace Calculator
     {
         public List<double> numbers = new List<double>();
         public List<string> operators = new List<string>();
-        public bool canText = false;
+        public bool cantText = false;
 
         public frmain()
         {
@@ -18,10 +18,10 @@ namespace Calculator
         private void bt0_Click(object sender, EventArgs e)
         {
             Button bt = (Button)sender;
-            if (canText)
+            if (cantText)
             {
                 lbScreen.Text = "";
-                canText = false;
+                cantText = false;
             }
 
             if (lbScreen.Text.Contains(",")) lbScreen.Text += bt.Text;
@@ -88,7 +88,7 @@ namespace Calculator
                 }
                 lbScreen.Text = Convert.ToString(sum);
             }
-            canText = true;
+            cantText = true;
         }
 
         private void bt_negative_Click(object sender, EventArgs e)
@@ -163,5 +163,6 @@ namespace Calculator
         {
             lbhistory.Items.Clear();
         }
+
     }
 }
