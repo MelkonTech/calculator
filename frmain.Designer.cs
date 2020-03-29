@@ -457,6 +457,7 @@
             this.lbScreen.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lbScreen.Location = new System.Drawing.Point(368, 36);
             this.lbScreen.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbScreen.MaximumSize = new System.Drawing.Size(0, 54);
             this.lbScreen.Name = "lbScreen";
             this.lbScreen.Size = new System.Drawing.Size(49, 54);
             this.lbScreen.TabIndex = 2;
@@ -471,6 +472,7 @@
             this.lblast.ForeColor = System.Drawing.Color.DimGray;
             this.lblast.Location = new System.Drawing.Point(417, 3);
             this.lblast.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblast.MaximumSize = new System.Drawing.Size(0, 29);
             this.lblast.Name = "lblast";
             this.lblast.Size = new System.Drawing.Size(0, 29);
             this.lblast.TabIndex = 2;
